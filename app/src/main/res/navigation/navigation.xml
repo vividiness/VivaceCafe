@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.vivianegomes.vivacecafe.Fragment.homeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home"/>
+    <fragment
+        android:id="@+id/buscarFragment"
+        android:name="com.vivianegomes.vivacecafe.Fragment.buscarFragment"
+        android:label="fragment_buscar"
+        tools:layout="@layout/fragment_buscar" />
+    <fragment
+        android:id="@+id/carrinhoFragment"
+        android:name="com.vivianegomes.vivacecafe.Fragment.carrinhoFragment"
+        android:label="fragment_carrinho"
+        tools:layout="@layout/fragment_carrinho" />
+    <fragment
+        android:id="@+id/cardapioFragment"
+        android:name="com.vivianegomes.vivacecafe.Fragment.cardapioFragment"
+        android:label="fragment_cardapio"
+        tools:layout="@layout/fragment_cardapio" />
+    <fragment
+        android:id="@+id/pedidosFragment"
+        android:name="com.vivianegomes.vivacecafe.Fragment.pedidosFragment"
+        android:label="fragment_pedidos"
+        tools:layout="@layout/fragment_pedidos" />
+
+</navigation>

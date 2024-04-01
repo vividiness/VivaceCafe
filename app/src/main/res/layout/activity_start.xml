@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brown"
+    android:orientation="vertical"
+    tools:context=".StartActivity">
+
+    <ImageView
+        android:id="@+id/imgView_cafes"
+        android:layout_width="230dp"
+        android:layout_height="214dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cafes" />
+
+    <TextView
+        android:id="@+id/txtTitulo_cafeteria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="312dp"
+        android:fontFamily="@font/timesnritalic"
+        android:padding="10sp"
+        android:text="@string/txtStart"
+        android:textAlignment="center"
+        android:textColor="@color/creamy"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="@+id/imgView_cafes"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/imgView_cafes"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnProximo"
+        android:layout_width="176dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="76dp"
+        android:background="@drawable/button_darkshadow"
+        android:elevation="5dp"
+        android:fontFamily="@font/timesnewroman"
+        android:text="@string/txtbtn_Proximo"
+        android:textAllCaps="false"
+        android:textColor="@color/brown"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtnomeEmpresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/timesnewroman"
+        android:text="@string/nome_empresa"
+        android:textColor="@color/darkbrown"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnProximo"
+        app:layout_constraintStart_toStartOf="@+id/btnProximo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

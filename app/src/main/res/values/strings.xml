@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">VivaceCafe</string>
+    <string name="vivace_cafeteria">Vivace Cafeteria</string>
+    <string name="nome_empresa">Designed by VIP </string>
+    <string name="txtStart">Aproveite uma nova experiência, Vivace..." </string>
+    <string name="txtbtn_Proximo">Próximo</string>
+    <string name="txtView_textologin">Faça login na sua conta</string>
+
+    <string name="txtView_explore">Explore seu café favorito</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ver_menu">Ver Menu</string>
+    <string name="popular">Popular</string>
+    <string name="realizar_pagamento">Realizar Pagamento</string>
+    <string name="buscar">Buscar</string>
+</resources>

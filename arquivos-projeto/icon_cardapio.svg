@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2018 (64 Bit Versão de avaliação) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="3000px" height="3000px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 3000 3000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#2E1A0C;stroke-width:75;stroke-miterlimit:22.9256}
+    .fil0 {fill:none}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M0 0l3000 0 0 3000 -3000 0 0 -3000z"/>
+   </clipPath>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g>
+  </g>
+  <g style="clip-path:url(#id0)">
+   <g>
+    <g id="_1856971505696">
+     <g>
+      <circle class="fil0 str0" cx="615.11" cy="961.83" r="184.11"/>
+      <rect class="fil0 str0" x="953.44" y="813.73" width="1615.56" height="296.19" rx="143.96" ry="148.09"/>
+     </g>
+     <g>
+      <circle class="fil0 str0" cx="615.11" cy="1500" r="184.11"/>
+      <rect class="fil0 str0" x="953.44" y="1351.9" width="1615.56" height="296.19" rx="143.96" ry="148.09"/>
+     </g>
+     <g>
+      <circle class="fil0 str0" cx="615.11" cy="2038.17" r="184.11"/>
+      <rect class="fil0 str0" x="953.44" y="1890.08" width="1615.56" height="296.19" rx="143.96" ry="148.09"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <polygon class="fil0" points="0,0 3000,0 3000,3000 0,3000 "/>
+ </g>
+</svg>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Home"
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/icon_home"/>
+    <item
+        android:title="Buscar"
+        android:id="@+id/buscarFragment"
+        android:icon="@drawable/icon_buscar"/>
+    <item
+        android:title="Cardápio"
+        android:id="@+id/cardapioFragment"
+        android:icon="@drawable/icon_cardapio"/>
+    <item
+        android:title="Carrinho"
+        android:id="@+id/carrinhoFragment"
+        android:icon="@drawable/icon_carrinho"/>
+
+    <item
+        android:title="Pedidos"
+        android:id="@+id/pedidosFragment"
+        android:icon="@drawable/icon_pedidos" />
+
+
+
+</menu>
